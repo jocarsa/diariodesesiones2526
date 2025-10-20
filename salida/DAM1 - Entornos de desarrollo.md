@@ -1,6 +1,6 @@
 # Informe de clases – DAM1 - Entornos de desarrollo
 
-_Generado automáticamente. Vídeos incluidos: 9._
+_Generado automáticamente. Vídeos incluidos: 12._
 
 ## Índice
 
@@ -13,6 +13,9 @@ _Generado automáticamente. Vídeos incluidos: 9._
 7. [2025 10 06 15 53 44](#2025-10-06-15-53-44)
 8. [2025 10 13 15 47 04](#2025-10-13-15-47-04)
 9. [2025 10 13 15 59 29](#2025-10-13-15-59-29)
+10. [2025 10 20 15 00 32](#2025-10-20-15-00-32)
+11. [2025 10 20 15 30 40](#2025-10-20-15-30-40)
+12. [2025 10 20 15 53 34](#2025-10-20-15-53-34)
 
 ---
 
@@ -36,48 +39,7 @@ _No hay subtítulos disponibles._
 
 **Enlace:** https://www.youtube.com/watch?v=Aozkmq9p46g
 
-**Resumen Extenso: Desarrollo de Proyectos Intermodulares en Programación**
-
-En la clase del 15 de septiembre de 2025, el profesor aborda el tema de desarrollo de proyectos intermodulares en programación. El objetivo principal es enseñar a los estudiantes cómo crear proyectos complejos que involucren múltiples aspectos, como análisis de mercado, selección de servicio o producto, propuesta de soluciones y evaluación de resultados.
-
-**Objetivos**
-
-* Enseñar a los estudiantes a analizar el mercado y detectar necesidades no cubiertas.
-* Desarrollar habilidades para seleccionar un servicio o producto adecuado para un proyecto.
-* Proporcionar una comprensión básica sobre cómo crear proyectos intermodulares en programación.
-
-**Conceptos Clave**
-
-* **Análisis de mercado**: El primer paso es analizar el mercado y detectar necesidades no cubiertas. Esto implica buscar información sobre empresas que desarrollen productos similares al que se quiere crear.
-* **Selección de servicio o producto**: Una vez identificada la necesidad, es necesario seleccionar un servicio o producto adecuado para satisfacer esa necesidad.
-* **Propuesta de soluciones**: Después de seleccionar el servicio o producto, es hora de proponer soluciones para abordar la necesidad detectada.
-
-**Explicación Didáctica**
-
-El profesor utiliza una explicación didáctica para ilustrar los conceptos clave. Comienza por analizar un ejemplo hipotético de un proyecto de desarrollo de videojuegos, donde se debe identificar empresas que desarrollen productos similares al que se quiere crear.
-
-* **Identificación de empresas**: El primer paso es buscar información sobre empresas que desarrollen productos similares al que se quiere crear. Esto implica buscar en Internet y analizar la competencia.
-* **Análisis de las empresas**: Una vez identificadas las empresas, es necesario analizar sus estructuras organizativas, funciones de cada departamento y volumen de negocio.
-
-**Pasos/Comandos**
-
-El profesor proporciona una guía paso a paso para desarrollar un proyecto intermodular:
-
-1. **Identificar necesidades no cubiertas**: Analizar el mercado y detectar necesidades no cubiertas.
-2. **Seleccionar servicio o producto**: Seleccionar un servicio o producto adecuado para satisfacer la necesidad detectada.
-3. **Proporcionar soluciones**: Proponer soluciones para abordar la necesidad detectada.
-
-**Buenas Prácticas**
-
-El profesor destaca algunas buenas prácticas para desarrollar proyectos intermodulares:
-
-* **Conocimiento del mercado**: Es importante tener una comprensión básica del mercado y las necesidades no cubiertas.
-* **Selección adecuada de servicio o producto**: Seleccionar un servicio o producto adecuado para satisfacer la necesidad detectada.
-* **Propuesta de soluciones efectivas**: Proponer soluciones efectivas para abordar la necesidad detectada.
-
-**Resumen**
-
-En resumen, el desarrollo de proyectos intermodulares en programación implica analizar el mercado, seleccionar un servicio o producto adecuado y proponer soluciones para abordar necesidades no cubiertas. Es importante tener una comprensión básica del mercado y las necesidades no cubiertas, seleccionar un servicio o producto adecuado y proponer soluciones efectivas.
+_No hay subtítulos disponibles._
 
 ---
 
@@ -89,51 +51,7 @@ En resumen, el desarrollo de proyectos intermodulares en programación implica a
 
 **Enlace:** https://www.youtube.com/watch?v=knNZOngLJuU
 
-**Resumen Extensivo: Instalación y Uso de Entornos de Desarrollo**
-
-**Objetivos**
-
-* Comprender el concepto de entorno de desarrollo y su importancia en la programación.
-* Conocer las características básicas de un entorno de desarrollo, como la edición de código, compilación e interpretación.
-* Aprender a instalar Visual Studio Code (VSCode) y configurarlo para trabajar con diferentes lenguajes de programación.
-* Familiarizarse con los herramientas y funcionalidades básicas de VSCode.
-
-**Conceptos Clave**
-
-* **Entorno de Desarrollo**: Un entorno de desarrollo es el conjunto de herramientas y aplicaciones que se utilizan para crear, compilar e interpretar código. Incluye la edición de código, compilación, ejecución y depuración.
-* **Visual Studio Code (VSCode)**: Es un editor de código abierto y gratuito desarrollado por Microsoft. Se utiliza para editar y compilar código en diferentes lenguajes de programación.
-
-**Explicación Didáctica**
-
-Un entorno de desarrollo es fundamental en la programación, ya que proporciona las herramientas necesarias para crear, compilar e interpretar código de manera eficiente. En este contexto, se discute el concepto de VSCode como un editor de código abierto y gratuito desarrollado por Microsoft.
-
-**Pasos/Comandos**
-
-1. **Instalación de VSCode**: Se describe la instalación de VSCode en diferentes sistemas operativos (Windows, macOS y Linux).
-2. **Configuración de VSCode**: Se muestra cómo configurar VSCode para trabajar con diferentes lenguajes de programación.
-3. **Edición de Código**: Se explica cómo editar código en VSCode utilizando las herramientas básicas del editor.
-
-**Buenas Prácticas**
-
-* Utilizar VSCode como un complemento a la escritura y ejecución de código, no como una sustitución.
-* Familiarizarse con las características básicas de VSCode antes de utilizarlo.
-* Configurar VSCode para trabajar con diferentes lenguajes de programación.
-
-**Herramientas y Funcionalidades Básicas**
-
-* **Edición de Código**: Se describe cómo editar código en VSCode utilizando las herramientas básicas del editor.
-* **Compilación e Interpretación**: Se explica cómo compilar e interpretar código en VSCode.
-* **Depuración**: Se muestra cómo depurar código en VSCode.
-
-**Resumen**
-
-En resumen, la instalación y el uso de entornos de desarrollo como VSCode son fundamentales en la programación. Al entender los conceptos clave y seguir las buenas prácticas, se puede aprovechar al máximo las herramientas y funcionalidades básicas de VSCode para crear, compilar e interpretar código de manera eficiente.
-
-**Notas**
-
-* La instalación y configuración de VSCode pueden variar dependiendo del sistema operativo utilizado.
-* Es importante familiarizarse con las características básicas de VSCode antes de utilizarlo.
-* La depuración es una herramienta fundamental en la programación que permite identificar y corregir errores en el código.
+_No hay subtítulos disponibles._
 
 ---
 
@@ -193,7 +111,60 @@ _No hay subtítulos disponibles._
 
 **Enlace:** https://www.youtube.com/watch?v=EkdTkdxdMwM
 
-_No hay subtítulos disponibles._
+**Resumen Extenso:**
+
+**Objetivos**
+
+En esta clase, se pretende profundizar en la creación de un proyecto intermodular que conecta diferentes módulos para realizar tareas específicas. El objetivo principal es entender cómo conectar el tema de programación con el tema de bases de datos para crear aplicaciones más complejas.
+
+**Conceptos Clave**
+
+* **Intermodular Project**: Un proyecto que combina diferentes módulos para lograr un resultado específico.
+* **Conexión entre módulos**: La capacidad de hacer que diferentes partes del código se comuniquen y compartan información.
+* **Programación y bases de datos**: La conexión entre el tema de programación y el tema de bases de datos para crear aplicaciones más complejas.
+
+**Explicación Didáctica**
+
+La explicación comenzó con la idea de cerrar todas las pestañas abiertas en el navegador, ya que esto podría causar problemas al trabajar con múltiples módulos. El profesor también mencionó que se iba a conectar al servidor para asegurarse de que todo estuviera funcionando correctamente.
+
+A continuación, se discutió la importancia de la banda ancha y cómo el consumo de ésta puede variar dependiendo de las acciones realizadas en la pantalla. Se mostró un ejemplo con OBS y Chrome, donde se demostró cómo el consumo de banda ancha cambia al mover la pantalla.
+
+**Pasos/Comandos**
+
+* **Conectar al servidor**: Es importante conectar al servidor para asegurarse de que todo estuviera funcionando correctamente.
+* **Crear un proyecto intermodular**: Se debe crear un proyecto que combine diferentes módulos para lograr un resultado específico.
+* **Conectar el tema de programación con el tema de bases de datos**: La conexión entre estos dos temas es fundamental para crear aplicaciones más complejas.
+
+**Buenas Prácticas**
+
+* **Cerrar pestañas abiertas**: Es importante cerrar todas las pestañas abiertas en el navegador para evitar problemas al trabajar con múltiples módulos.
+* **Conectar al servidor**: Conectar al servidor antes de comenzar a trabajar es fundamental para asegurarse de que todo estuviera funcionando correctamente.
+
+**Fragmentos de Código**
+
+```python
+# Ejemplo de conexión entre módulos
+import sqlite3
+
+# Crear una conexión con la base de datos
+conn = sqlite3.connect('microblog.db')
+
+# Crear un cursor para realizar consultas
+cur = conn.cursor()
+
+# Realizar una consulta a la base de datos
+cur.execute("SELECT * FROM microblog")
+
+# Obtener los resultados de la consulta
+results = cur.fetchall()
+```
+
+**Notas**
+
+* **API incompleta**: La API utilizada en este ejemplo es incompleta y no se muestra el código completo.
+* **Resultados incompletos**: Los resultados de la consulta a la base de datos no se muestran completamente.
+
+Espero que este resumen te sea útil. ¡Si tienes alguna pregunta o necesitas más información, no dudes en preguntar!
 
 ---
 
@@ -204,6 +175,42 @@ _No hay subtítulos disponibles._
 **Día (ES):** lunes
 
 **Enlace:** https://www.youtube.com/watch?v=WpUvdsnjYCo
+
+_No hay subtítulos disponibles._
+
+---
+
+## 2025 10 20 15 00 32
+
+**Fecha/Hora:** 2025-10-20 15:00:32
+
+**Día (ES):** lunes
+
+**Enlace:** https://www.youtube.com/watch?v=ebmPVUso9dc
+
+_No hay subtítulos disponibles._
+
+---
+
+## 2025 10 20 15 30 40
+
+**Fecha/Hora:** 2025-10-20 15:30:40
+
+**Día (ES):** lunes
+
+**Enlace:** https://www.youtube.com/watch?v=Np44J2I9rTE
+
+_No hay subtítulos disponibles._
+
+---
+
+## 2025 10 20 15 53 34
+
+**Fecha/Hora:** 2025-10-20 15:53:34
+
+**Día (ES):** lunes
+
+**Enlace:** https://www.youtube.com/watch?v=WWwjrkxeY4o
 
 _No hay subtítulos disponibles._
 

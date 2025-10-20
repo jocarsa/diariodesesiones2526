@@ -1,0 +1,1444 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.719 --> 00:00:02.830 align:start position:0%
+ 
+Okay, <00:00:01.000><c>so</c>
+
+00:00:02.830 --> 00:00:02.840 align:start position:0%
+Okay, so
+ 
+
+00:00:02.840 --> 00:00:07.070 align:start position:0%
+Okay, so
+let's <00:00:03.239><c>get </c><00:00:03.638><c>back </c><00:00:04.037><c>to </c><00:00:04.436><c>computer </c><00:00:04.835><c>systems.</c>
+
+00:00:07.070 --> 00:00:07.080 align:start position:0%
+let's get back to computer systems.
+ 
+
+00:00:07.080 --> 00:00:08.790 align:start position:0%
+let's get back to computer systems.
+This <00:00:07.253><c>is </c><00:00:07.426><c>where </c><00:00:07.599><c>I </c><00:00:07.772><c>think </c><00:00:07.945><c>I'm </c><00:00:08.118><c>going </c><00:00:08.291><c>to </c><00:00:08.464><c>have </c><00:00:08.637><c>to</c>
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+This is where I think I'm going to have to
+ 
+
+00:00:08.800 --> 00:00:11.830 align:start position:0%
+This is where I think I'm going to have to
+restart <00:00:09.509><c>the </c><00:00:10.218><c>computer </c><00:00:10.927><c>because </c><00:00:11.636><c>in</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+restart the computer because in
+ 
+
+00:00:11.840 --> 00:00:14.509 align:start position:0%
+restart the computer because in
+installing <00:00:12.159><c>operating </c><00:00:12.478><c>systems </c><00:00:12.797><c>we</c>
+
+00:00:14.509 --> 00:00:14.519 align:start position:0%
+installing operating systems we
+ 
+
+00:00:14.519 --> 00:00:17.230 align:start position:0%
+installing operating systems we
+now <00:00:15.015><c>enter </c><00:00:15.511><c>point </c><00:00:16.007><c>six </c><00:00:16.503><c>of </c><00:00:16.999><c>the</c>
+
+00:00:17.230 --> 00:00:17.240 align:start position:0%
+now enter point six of the
+ 
+
+00:00:17.240 --> 00:00:19.870 align:start position:0%
+now enter point six of the
+installation <00:00:18.000><c>procedure.</c>
+
+00:00:19.870 --> 00:00:19.880 align:start position:0%
+installation procedure.
+ 
+
+00:00:19.880 --> 00:00:22.109 align:start position:0%
+installation procedure.
+But <00:00:20.573><c>before </c><00:00:21.266><c>that, </c><00:00:21.959><c>let's</c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+But before that, let's
+ 
+
+00:00:22.119 --> 00:00:23.390 align:start position:0%
+But before that, let's
+talk <00:00:22.492><c>about </c><00:00:22.865><c>virtualization </c><00:00:23.238><c>technologies</c>
+
+00:00:23.390 --> 00:00:23.400 align:start position:0%
+talk about virtualization technologies
+ 
+
+00:00:23.400 --> 00:00:25.429 align:start position:0%
+talk about virtualization technologies
+
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+ 
+ 
+
+00:00:25.439 --> 00:00:29.070 align:start position:0%
+ 
+for <00:00:26.159><c>performing </c><00:00:26.879><c>a</c>
+
+00:00:29.070 --> 00:00:29.080 align:start position:0%
+for performing a
+ 
+
+00:00:29.080 --> 00:00:31.230 align:start position:0%
+for performing a
+001 installation, an
+
+00:00:31.230 --> 00:00:31.240 align:start position:0%
+001 installation, an
+ 
+
+00:00:31.240 --> 00:00:35.150 align:start position:0%
+001 installation, an
+operating <00:00:32.380><c>system </c><00:00:33.520><c>installation.</c>
+
+00:00:35.150 --> 00:00:35.160 align:start position:0%
+operating system installation.
+ 
+
+00:00:35.160 --> 00:00:37.310 align:start position:0%
+operating system installation.
+First <00:00:35.380><c>of </c><00:00:35.600><c>all,</c>
+
+00:00:37.310 --> 00:00:37.320 align:start position:0%
+First of all,
+ 
+
+00:00:37.320 --> 00:00:40.630 align:start position:0%
+First of all,
+okay?  <00:00:37.679><c>First </c><00:00:38.038><c>of </c><00:00:38.397><c>all,</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+okay?  First of all,
+ 
+
+00:00:40.640 --> 00:00:44.229 align:start position:0%
+okay?  First of all,
+what <00:00:41.120><c>we </c><00:00:41.600><c>have </c><00:00:42.080><c>to </c><00:00:42.560><c>do </c><00:00:43.040><c>is </c><00:00:43.520><c>download </c><00:00:44.000><c>an</c>
+
+00:00:44.229 --> 00:00:44.239 align:start position:0%
+what we have to do is download an
+ 
+
+00:00:44.239 --> 00:00:48.150 align:start position:0%
+what we have to do is download an
+installation <00:00:46.119><c>media.  </c><00:00:47.999><c>Generally</c>
+
+00:00:48.150 --> 00:00:48.160 align:start position:0%
+installation media.  Generally
+ 
+
+00:00:48.160 --> 00:00:53.310 align:start position:0%
+installation media.  Generally
+today <00:00:48.839><c>the </c><00:00:49.518><c>default </c><00:00:50.197><c>medium</c>
+
+00:00:53.310 --> 00:00:53.320 align:start position:0%
+ 
+ 
+
+00:00:53.320 --> 00:00:57.470 align:start position:0%
+ 
+is <00:00:53.853><c>an </c><00:00:54.386><c>ISO </c><00:00:54.919><c>image.</c>
+
+00:00:57.470 --> 00:00:57.480 align:start position:0%
+is an ISO image.
+ 
+
+00:00:57.480 --> 00:01:02.150 align:start position:0%
+is an ISO image.
+The <00:00:58.220><c>ISO </c><00:00:58.960><c>image, </c><00:00:59.700><c>the </c><00:01:00.440><c>old</c>
+
+00:01:02.150 --> 00:01:02.160 align:start position:0%
+The ISO image, the old
+ 
+
+00:01:02.160 --> 00:01:05.710 align:start position:0%
+The ISO image, the old
+installation <00:01:02.480><c>DVD,</c>
+
+00:01:05.710 --> 00:01:05.720 align:start position:0%
+ 
+ 
+
+00:01:05.720 --> 00:01:10.870 align:start position:0%
+ 
+can <00:01:06.016><c>be </c><00:01:06.312><c>downloaded </c><00:01:06.608><c>from </c><00:01:06.904><c>the </c><00:01:07.200><c>web.</c>
+
+00:01:10.870 --> 00:01:10.880 align:start position:0%
+ 
+ 
+
+00:01:10.880 --> 00:01:16.030 align:start position:0%
+ 
+For <00:01:11.139><c>example, </c><00:01:11.398><c>in </c><00:01:11.657><c>the </c><00:01:11.916><c>case </c><00:01:12.175><c>of </c><00:01:12.434><c>Uguntu,</c>
+
+00:01:16.030 --> 00:01:16.040 align:start position:0%
+ 
+ 
+
+00:01:16.040 --> 00:01:20.950 align:start position:0%
+ 
+well, <00:01:16.544><c>okay, </c><00:01:17.048><c>we </c><00:01:17.552><c>download </c><00:01:18.056><c>Ugun </c><00:01:18.560><c>Desktop</c>
+
+00:01:20.950 --> 00:01:20.960 align:start position:0%
+well, okay, we download Ugun Desktop
+ 
+
+00:01:20.960 --> 00:01:23.749 align:start position:0%
+well, okay, we download Ugun Desktop
+and <00:01:21.200><c>we </c><00:01:21.440><c>can </c><00:01:21.680><c>download </c><00:01:21.920><c>it, </c><00:01:22.160><c>we </c><00:01:22.400><c>can </c><00:01:22.640><c>get </c><00:01:22.880><c>it</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+and we can download it, we can get it
+ 
+
+00:01:23.759 --> 00:01:30.710 align:start position:0%
+and we can download it, we can get it
+here.  <00:01:24.367><c>In </c><00:01:24.975><c>the </c><00:01:25.583><c>case </c><00:01:26.191><c>of </c><00:01:26.799><c>Windows,</c>
+
+00:01:30.710 --> 00:01:30.720 align:start position:0%
+ 
+ 
+
+00:01:30.720 --> 00:01:34.870 align:start position:0%
+ 
+in <00:01:30.950><c>the </c><00:01:31.180><c>case </c><00:01:31.410><c>of </c><00:01:31.640><c>Windows,</c>
+
+00:01:34.870 --> 00:01:34.880 align:start position:0%
+ 
+ 
+
+00:01:34.880 --> 00:01:41.069 align:start position:0%
+ 
+uh, <00:01:35.346><c>download </c><00:01:35.812><c>Windows </c><00:01:36.278><c>11.</c>
+
+00:01:41.069 --> 00:01:41.079 align:start position:0%
+ 
+ 
+
+00:01:41.079 --> 00:01:43.030 align:start position:0%
+ 
+download <00:01:41.479><c>Windows </c><00:01:41.879><c>11. </c><00:01:42.279><c>We </c><00:01:42.679><c>can</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+download Windows 11. We can
+ 
+
+00:01:43.040 --> 00:01:46.830 align:start position:0%
+download Windows 11. We can
+download <00:01:43.590><c>it </c><00:01:44.140><c>from </c><00:01:44.690><c>this </c><00:01:45.240><c>URL.</c>
+
+00:01:46.830 --> 00:01:46.840 align:start position:0%
+download it from this URL.
+ 
+
+00:01:46.840 --> 00:01:50.510 align:start position:0%
+download it from this URL.
+Once <00:01:47.700><c>we've </c><00:01:48.560><c>downloaded, </c><00:01:49.420><c>okay?  </c><00:01:50.280><c>Once</c>
+
+00:01:50.510 --> 00:01:50.520 align:start position:0%
+Once we've downloaded, okay?  Once
+ 
+
+00:01:50.520 --> 00:01:52.830 align:start position:0%
+Once we've downloaded, okay?  Once
+
+
+00:01:52.830 --> 00:01:52.840 align:start position:0%
+ 
+ 
+
+00:01:52.840 --> 00:01:55.190 align:start position:0%
+ 
+we've
+
+00:01:55.190 --> 00:01:55.200 align:start position:0%
+we've
+ 
+
+00:01:55.200 --> 00:01:57.469 align:start position:0%
+we've
+downloaded it,
+
+00:01:57.469 --> 00:01:57.479 align:start position:0%
+downloaded it,
+ 
+
+00:01:57.479 --> 00:02:04.590 align:start position:0%
+downloaded it,
+either <00:01:58.799><c>we </c><00:02:00.119><c>burn </c><00:02:01.439><c>it</c>
+
+00:02:04.590 --> 00:02:04.600 align:start position:0%
+ 
+ 
+
+00:02:04.600 --> 00:02:06.950 align:start position:0%
+ 
+to <00:02:04.840><c>an </c><00:02:05.080><c>installation </c><00:02:05.320><c>DVD</c>
+
+00:02:06.950 --> 00:02:09.389 align:start position:0%
+to an installation DVD
+ 
+
+00:02:09.389 --> 00:02:09.399 align:start position:0%
+ 
+ 
+
+00:02:09.399 --> 00:02:14.229 align:start position:0%
+ 
+or <00:02:10.111><c>we </c><00:02:10.823><c>generate </c><00:02:11.535><c>removable </c><00:02:12.247><c>installation </c><00:02:12.959><c>media</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+or we generate removable installation media
+ 
+
+00:02:14.239 --> 00:02:20.430 align:start position:0%
+or we generate removable installation media
+.
+
+00:02:20.430 --> 00:02:20.440 align:start position:0%
+ 
+ 
+
+00:02:20.440 --> 00:02:23.990 align:start position:0%
+ 
+For <00:02:21.064><c>example, </c><00:02:21.688><c>with </c><00:02:22.312><c>Rufus </c><00:02:22.936><c>we </c><00:02:23.560><c>can</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+For example, with Rufus we can
+ 
+
+00:02:24.000 --> 00:02:29.030 align:start position:0%
+For example, with Rufus we can
+generate <00:02:24.760><c>a </c><00:02:25.520><c>USB </c><00:02:26.280><c>installer.</c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+generate a USB installer.
+ 
+
+00:02:29.040 --> 00:02:30.830 align:start position:0%
+generate a USB installer.
+Okay,
+
+00:02:30.830 --> 00:02:30.840 align:start position:0%
+Okay,
+ 
+
+00:02:30.840 --> 00:02:33.270 align:start position:0%
+Okay,
+but <00:02:31.171><c>of </c><00:02:31.502><c>course, </c><00:02:31.833><c>the </c><00:02:32.164><c>problem </c><00:02:32.495><c>is </c><00:02:32.826><c>that </c><00:02:33.157><c>if</c>
+
+00:02:33.270 --> 00:02:33.280 align:start position:0%
+but of course, the problem is that if
+ 
+
+00:02:33.280 --> 00:02:36.670 align:start position:0%
+but of course, the problem is that if
+I <00:02:33.713><c>download </c><00:02:34.146><c>one </c><00:02:34.579><c>now </c><00:02:35.012><c>and </c><00:02:35.445><c>click </c><00:02:35.878><c>install,</c>
+
+00:02:36.670 --> 00:02:36.680 align:start position:0%
+I download one now and click install,
+ 
+
+00:02:36.680 --> 00:02:38.589 align:start position:0%
+I download one now and click install,
+what's <00:02:36.884><c>going </c><00:02:37.088><c>to </c><00:02:37.292><c>happen </c><00:02:37.496><c>is </c><00:02:37.700><c>that </c><00:02:37.904><c>I'm </c><00:02:38.108><c>going </c><00:02:38.312><c>to</c>
+
+00:02:38.589 --> 00:02:38.599 align:start position:0%
+what's going to happen is that I'm going to
+ 
+
+00:02:38.599 --> 00:02:41.509 align:start position:0%
+what's going to happen is that I'm going to
+crash <00:02:39.159><c>my </c><00:02:39.719><c>computer, </c><00:02:40.279><c>okay?</c>
+
+00:02:41.509 --> 00:02:41.519 align:start position:0%
+crash my computer, okay?
+ 
+
+00:02:41.519 --> 00:02:43.750 align:start position:0%
+crash my computer, okay?
+Generally,
+
+00:02:43.750 --> 00:02:49.350 align:start position:0%
+Generally,
+ 
+
+00:02:49.350 --> 00:02:52.350 align:start position:0%
+ 
+ 
+
+00:02:52.350 --> 00:02:52.360 align:start position:0%
+ 
+ 
+
+00:02:52.360 --> 00:02:55.190 align:start position:0%
+ 
+virtualization <00:02:52.420><c>is </c><00:02:52.480><c>used </c><00:02:52.540><c>to </c><00:02:52.600><c>test </c><00:02:52.660><c>operating </c><00:02:52.720><c>systems.</c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+virtualization is used to test operating systems.
+ 
+
+00:02:55.200 --> 00:02:58.030 align:start position:0%
+virtualization is used to test operating systems.
+Virtualization <00:02:55.704><c>and </c><00:02:56.208><c>now </c><00:02:56.712><c>we're </c><00:02:57.216><c>going </c><00:02:57.720><c>to</c>
+
+00:02:58.030 --> 00:02:58.040 align:start position:0%
+Virtualization and now we're going to
+ 
+
+00:02:58.040 --> 00:03:00.350 align:start position:0%
+Virtualization and now we're going to
+virtualization <00:02:58.786><c>technologies, </c><00:02:59.532><c>okay?  </c><00:03:00.278><c>And</c>
+
+00:03:00.350 --> 00:03:00.360 align:start position:0%
+virtualization technologies, okay?  And
+ 
+
+00:03:00.360 --> 00:03:04.149 align:start position:0%
+virtualization technologies, okay?  And
+now <00:03:00.706><c>we'll </c><00:03:01.052><c>go </c><00:03:01.398><c>back </c><00:03:01.744><c>to </c><00:03:02.090><c>installation </c><00:03:02.436><c>001</c>
+
+00:03:04.149 --> 00:03:04.159 align:start position:0%
+now we'll go back to installation 001
+ 
+
+00:03:04.159 --> 00:03:06.830 align:start position:0%
+now we'll go back to installation 001
+introduction.md,
+
+00:03:06.830 --> 00:03:06.840 align:start position:0%
+introduction.md,
+ 
+
+00:03:06.840 --> 00:03:08.270 align:start position:0%
+introduction.md,
+okay?
+
+00:03:08.270 --> 00:03:08.280 align:start position:0%
+okay?
+ 
+
+00:03:08.280 --> 00:03:12.030 align:start position:0%
+okay?
+Uh, <00:03:09.120><c>virtualization</c>
+
+00:03:12.030 --> 00:03:12.040 align:start position:0%
+Uh, virtualization
+ 
+
+00:03:12.040 --> 00:03:15.110 align:start position:0%
+Uh, virtualization
+allows <00:03:12.433><c>us </c><00:03:12.826><c>to </c><00:03:13.219><c>emulate </c><00:03:13.612><c>one </c><00:03:14.005><c>computer </c><00:03:14.398><c>system</c>
+
+00:03:15.110 --> 00:03:15.120 align:start position:0%
+allows us to emulate one computer system
+ 
+
+00:03:15.120 --> 00:03:16.630 align:start position:0%
+allows us to emulate one computer system
+
+
+00:03:16.630 --> 00:03:16.640 align:start position:0%
+ 
+ 
+
+00:03:16.640 --> 00:03:18.830 align:start position:0%
+ 
+within <00:03:17.159><c>another.</c>
+
+00:03:18.830 --> 00:03:18.840 align:start position:0%
+within another.
+ 
+
+00:03:18.840 --> 00:03:23.589 align:start position:0%
+within another.
+We <00:03:19.279><c>create </c><00:03:19.718><c>a </c><00:03:20.157><c>virtual </c><00:03:20.596><c>machine</c>
+
+00:03:23.589 --> 00:03:23.599 align:start position:0%
+We create a virtual machine
+ 
+
+00:03:23.599 --> 00:03:26.670 align:start position:0%
+We create a virtual machine
+with <00:03:24.120><c>characteristics</c>
+
+00:03:26.670 --> 00:03:26.680 align:start position:0%
+with characteristics
+ 
+
+00:03:26.680 --> 00:03:30.630 align:start position:0%
+with characteristics
+equal <00:03:27.240><c>to </c><00:03:27.800><c>or </c><00:03:28.360><c>inferior</c>
+
+00:03:30.630 --> 00:03:30.640 align:start position:0%
+equal to or inferior
+ 
+
+00:03:30.640 --> 00:03:37.509 align:start position:0%
+equal to or inferior
+to <00:03:30.880><c>the </c><00:03:31.120><c>physical </c><00:03:31.360><c>machine.</c>
+
+00:03:37.509 --> 00:03:37.519 align:start position:0%
+ 
+ 
+
+00:03:37.519 --> 00:03:41.949 align:start position:0%
+ 
+And <00:03:38.009><c>on </c><00:03:38.499><c>that </c><00:03:38.989><c>virtual </c><00:03:39.479><c>machine</c>
+
+00:03:41.949 --> 00:03:41.959 align:start position:0%
+And on that virtual machine
+ 
+
+00:03:41.959 --> 00:03:44.470 align:start position:0%
+And on that virtual machine
+we perform
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+we perform
+ 
+
+00:03:44.480 --> 00:03:47.830 align:start position:0%
+we perform
+an <00:03:44.760><c>installation.</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+ 
+ 
+
+00:03:47.840 --> 00:03:51.470 align:start position:0%
+ 
+Recommended <00:03:48.239><c>software.</c>
+
+00:03:51.470 --> 00:03:51.480 align:start position:0%
+ 
+ 
+
+00:03:51.480 --> 00:03:56.390 align:start position:0%
+ 
+Oracle <00:03:51.759><c>Virtual </c><00:03:52.038><c>Box.   </c><00:03:52.317><c>Let's</c>
+
+00:03:56.390 --> 00:03:56.400 align:start position:0%
+ 
+ 
+
+00:03:56.400 --> 00:04:04.030 align:start position:0%
+ 
+go <00:03:56.691><c>for </c><00:03:56.982><c>it.  </c><00:03:57.273><c>Let's </c><00:03:57.564><c>go </c><00:03:57.855><c>to </c><00:03:58.146><c>Virtual </c><00:03:58.437><c>Box.</c>
+
+00:04:04.030 --> 00:04:04.040 align:start position:0%
+ 
+ 
+
+00:04:04.040 --> 00:04:05.830 align:start position:0%
+ 
+Oracle <00:04:04.268><c>Virtual </c><00:04:04.496><c>Box.  </c><00:04:04.724><c>I'm </c><00:04:04.952><c>going </c><00:04:05.180><c>to </c><00:04:05.408><c>put </c><00:04:05.636><c>the</c>
+
+00:04:05.830 --> 00:04:05.840 align:start position:0%
+Oracle Virtual Box.  I'm going to put the
+ 
+
+00:04:05.840 --> 00:04:08.910 align:start position:0%
+Oracle Virtual Box.  I'm going to put the
+website <00:04:06.240><c>here, </c><00:04:06.640><c>okay?  </c><00:04:07.040><c>And </c><00:04:07.440><c>we </c><00:04:07.840><c>are </c><00:04:08.240><c>going </c><00:04:08.640><c>to</c>
+
+00:04:08.910 --> 00:04:08.920 align:start position:0%
+website here, okay?  And we are going to
+ 
+
+00:04:08.920 --> 00:04:10.910 align:start position:0%
+website here, okay?  And we are going to
+download.  <00:04:09.209><c>Once </c><00:04:09.498><c>we </c><00:04:09.787><c>download </c><00:04:10.076><c>it,</c>
+
+00:04:10.910 --> 00:04:10.920 align:start position:0%
+download.  Once we download it,
+ 
+
+00:04:10.920 --> 00:04:13.309 align:start position:0%
+download.  Once we download it,
+we <00:04:11.239><c>install </c><00:04:11.558><c>it.  </c><00:04:11.877><c>In </c><00:04:12.196><c>my </c><00:04:12.515><c>case, </c><00:04:12.834><c>I </c><00:04:13.153><c>already</c>
+
+00:04:13.309 --> 00:04:13.319 align:start position:0%
+we install it.  In my case, I already
+ 
+
+00:04:13.319 --> 00:04:16.030 align:start position:0%
+we install it.  In my case, I already
+have <00:04:13.719><c>it </c><00:04:14.119><c>downloaded.  </c><00:04:14.519><c>You </c><00:04:14.919><c>have </c><00:04:15.319><c>it </c><00:04:15.719><c>for</c>
+
+00:04:16.030 --> 00:04:16.040 align:start position:0%
+have it downloaded.  You have it for
+ 
+
+00:04:16.040 --> 00:04:18.270 align:start position:0%
+have it downloaded.  You have it for
+Windows, <00:04:16.549><c>for </c><00:04:17.058><c>Mac, </c><00:04:17.567><c>for </c><00:04:18.076><c>Linux,</c>
+
+00:04:18.270 --> 00:04:18.280 align:start position:0%
+Windows, for Mac, for Linux,
+ 
+
+00:04:18.280 --> 00:04:23.150 align:start position:0%
+Windows, for Mac, for Linux,
+for <00:04:19.259><c>Solaris, </c><00:04:20.238><c>right?  </c><00:04:21.217><c>So </c><00:04:22.196><c>once</c>
+
+00:04:23.150 --> 00:04:23.160 align:start position:0%
+for Solaris, right?  So once
+ 
+
+00:04:23.160 --> 00:04:25.830 align:start position:0%
+for Solaris, right?  So once
+we've <00:04:23.500><c>downloaded </c><00:04:23.840><c>the </c><00:04:24.180><c>virtual </c><00:04:24.520><c>machine,</c>
+
+00:04:25.830 --> 00:04:25.840 align:start position:0%
+we've downloaded the virtual machine,
+ 
+
+00:04:25.840 --> 00:04:27.469 align:start position:0%
+we've downloaded the virtual machine,
+I'm <00:04:26.000><c>going </c><00:04:26.160><c>to </c><00:04:26.320><c>go </c><00:04:26.480><c>to </c><00:04:26.640><c>Virtual </c><00:04:26.800><c>Box.  </c><00:04:26.960><c>Wait </c><00:04:27.120><c>a </c><00:04:27.280><c>minute,</c>
+
+00:04:27.469 --> 00:04:27.479 align:start position:0%
+I'm going to go to Virtual Box.  Wait a minute,
+ 
+
+00:04:27.479 --> 00:04:30.430 align:start position:0%
+I'm going to go to Virtual Box.  Wait a minute,
+I'm <00:04:27.589><c>going </c><00:04:27.699><c>to </c><00:04:27.809><c>close </c><00:04:27.919><c>things.</c>
+
+00:04:30.430 --> 00:04:30.440 align:start position:0%
+I'm going to close things.
+ 
+
+00:04:30.440 --> 00:04:31.550 align:start position:0%
+I'm going to close things.
+What <00:04:30.620><c>was </c><00:04:30.800><c>this?</c>
+
+00:04:31.550 --> 00:04:31.560 align:start position:0%
+What was this?
+ 
+
+00:04:31.560 --> 00:04:36.310 align:start position:0%
+What was this?
+Nothing.  <00:04:32.300><c>Ah, </c><00:04:33.040><c>yes, </c><00:04:33.780><c>out.  </c><00:04:34.520><c>Okay.  </c><00:04:35.260><c>Okay.  </c><00:04:36.000><c>Okay,</c>
+
+00:04:36.310 --> 00:04:36.320 align:start position:0%
+Nothing.  Ah, yes, out.  Okay.  Okay.  Okay,
+ 
+
+00:04:36.320 --> 00:04:38.310 align:start position:0%
+Nothing.  Ah, yes, out.  Okay.  Okay.  Okay,
+I'm <00:04:36.525><c>going </c><00:04:36.730><c>to </c><00:04:36.935><c>go </c><00:04:37.140><c>to </c><00:04:37.345><c>the </c><00:04:37.550><c>virtual </c><00:04:37.755><c>machine,</c>
+
+00:04:38.310 --> 00:04:38.320 align:start position:0%
+I'm going to go to the virtual machine,
+ 
+
+00:04:38.320 --> 00:04:43.029 align:start position:0%
+I'm going to go to the virtual machine,
+sorry.  <00:04:38.491><c>I'm </c><00:04:38.662><c>going </c><00:04:38.833><c>to </c><00:04:39.004><c>go </c><00:04:39.175><c>to </c><00:04:39.346><c>Virtual </c><00:04:39.517><c>Box,</c>
+
+00:04:43.029 --> 00:04:43.039 align:start position:0%
+ 
+ 
+
+00:04:43.039 --> 00:04:45.830 align:start position:0%
+ 
+okay?  <00:04:43.311><c>And </c><00:04:43.583><c>I'm </c><00:04:43.855><c>going </c><00:04:44.127><c>to, </c><00:04:44.399><c>in </c><00:04:44.671><c>this </c><00:04:44.943><c>case, </c><00:04:45.215><c>I'm </c><00:04:45.487><c>going </c><00:04:45.759><c>to</c>
+
+00:04:45.830 --> 00:04:45.840 align:start position:0%
+okay?  And I'm going to, in this case, I'm going to
+ 
+
+00:04:45.840 --> 00:04:48.469 align:start position:0%
+okay?  And I'm going to, in this case, I'm going to
+delete <00:04:46.450><c>this </c><00:04:47.060><c>machine, </c><00:04:47.670><c>delete </c><00:04:48.280><c>all</c>
+
+00:04:48.469 --> 00:04:48.479 align:start position:0%
+delete this machine, delete all
+ 
+
+00:04:48.479 --> 00:04:51.110 align:start position:0%
+delete this machine, delete all
+the <00:04:48.769><c>files, </c><00:04:49.059><c>and </c><00:04:49.349><c>I'm </c><00:04:49.639><c>going </c><00:04:49.929><c>to </c><00:04:50.219><c>create </c><00:04:50.509><c>a </c><00:04:50.799><c>new</c>
+
+00:04:51.110 --> 00:04:51.120 align:start position:0%
+the files, and I'm going to create a new
+ 
+
+00:04:51.120 --> 00:04:57.029 align:start position:0%
+the files, and I'm going to create a new
+virtual <00:04:51.540><c>machine.  </c><00:04:51.960><c>Let's </c><00:04:52.380><c>see </c><00:04:52.800><c>it.</c>
+
+00:04:57.029 --> 00:04:57.039 align:start position:0%
+ 
+ 
+
+00:04:57.039 --> 00:05:01.550 align:start position:0%
+ 
+Okay.  <00:04:57.869><c>And </c><00:04:58.699><c>operations.  </c><00:04:59.529><c>First </c><00:05:00.359><c>new</c>
+
+00:05:01.550 --> 00:05:01.560 align:start position:0%
+Okay.  And operations.  First new
+ 
+
+00:05:01.560 --> 00:05:03.230 align:start position:0%
+Okay.  And operations.  First new
+
+
+00:05:03.230 --> 00:05:03.240 align:start position:0%
+ 
+ 
+
+00:05:03.240 --> 00:05:06.310 align:start position:0%
+ 
+virtual machine
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+ 
+ 
+
+00:05:06.320 --> 00:05:09.350 align:start position:0%
+ 
+and <00:05:06.720><c>this </c><00:05:07.120><c>one </c><00:05:07.520><c>was </c><00:05:07.920><c>a </c><00:05:08.320><c>new </c><00:05:08.720><c>one.  </c><00:05:09.120><c>What</c>
+
+00:05:09.350 --> 00:05:09.360 align:start position:0%
+and this one was a new one.  What
+ 
+
+00:05:09.360 --> 00:05:11.230 align:start position:0%
+and this one was a new one.  What
+features <00:05:09.770><c>will </c><00:05:10.180><c>it </c><00:05:10.590><c>have?  </c><00:05:11.000><c>Well,</c>
+
+00:05:11.230 --> 00:05:11.240 align:start position:0%
+features will it have?  Well,
+ 
+
+00:05:11.240 --> 00:05:16.710 align:start position:0%
+features will it have?  Well,
+name, <00:05:12.180><c>Uguntu </c><00:05:13.120><c>Linux.</c>
+
+00:05:16.710 --> 00:05:16.720 align:start position:0%
+ 
+ 
+
+00:05:16.720 --> 00:05:20.189 align:start position:0%
+ 
+Name <00:05:17.540><c>Uguntu </c><00:05:18.360><c>Linux.</c>
+
+00:05:20.189 --> 00:05:20.199 align:start position:0%
+Name Uguntu Linux.
+ 
+
+00:05:20.199 --> 00:05:22.189 align:start position:0%
+Name Uguntu Linux.
+image.  <00:05:20.459><c>Well, </c><00:05:20.719><c>I </c><00:05:20.979><c>think </c><00:05:21.239><c>I </c><00:05:21.499><c>must </c><00:05:21.759><c>have</c>
+
+00:05:22.189 --> 00:05:22.199 align:start position:0%
+image.  Well, I think I must have
+ 
+
+00:05:22.199 --> 00:05:23.749 align:start position:0%
+image.  Well, I think I must have
+some
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+some
+ 
+
+00:05:23.759 --> 00:05:26.909 align:start position:0%
+some
+downloaded <00:05:24.440><c>already.</c>
+
+00:05:26.909 --> 00:05:26.919 align:start position:0%
+downloaded already.
+ 
+
+00:05:26.919 --> 00:05:30.110 align:start position:0%
+downloaded already.
+This <00:05:27.120><c>out.</c>
+
+00:05:30.110 --> 00:05:30.120 align:start position:0%
+This out.
+ 
+
+00:05:30.120 --> 00:05:34.309 align:start position:0%
+This out.
+Let's <00:05:30.579><c>see.  </c><00:05:31.038><c>Ubun.</c>
+
+00:05:34.309 --> 00:05:34.319 align:start position:0%
+ 
+ 
+
+00:05:34.319 --> 00:05:37.390 align:start position:0%
+ 
+I <00:05:34.742><c>should </c><00:05:35.165><c>have </c><00:05:35.588><c>some </c><00:05:36.011><c>of </c><00:05:36.434><c>this, </c><00:05:36.857><c>okay?  </c><00:05:37.280><c>For</c>
+
+00:05:37.390 --> 00:05:37.400 align:start position:0%
+I should have some of this, okay?  For
+ 
+
+00:05:37.400 --> 00:05:39.430 align:start position:0%
+I should have some of this, okay?  For
+example.
+
+00:05:39.430 --> 00:05:39.440 align:start position:0%
+example.
+ 
+
+00:05:39.440 --> 00:05:42.909 align:start position:0%
+example.
+Okay.  <00:05:40.080><c>And</c>
+
+00:05:42.909 --> 00:05:42.919 align:start position:0%
+Okay.  And
+ 
+
+00:05:42.919 --> 00:05:45.350 align:start position:0%
+Okay.  And
+desktop <00:05:43.204><c>and </c><00:05:43.489><c>I </c><00:05:43.774><c>put </c><00:05:44.059><c>it </c><00:05:44.344><c>here.  </c><00:05:44.629><c>Why </c><00:05:44.914><c>does </c><00:05:45.199><c>it</c>
+
+00:05:45.350 --> 00:05:45.360 align:start position:0%
+desktop and I put it here.  Why does it
+ 
+
+00:05:45.360 --> 00:05:48.670 align:start position:0%
+desktop and I put it here.  Why does it
+appear <00:05:45.904><c>twice?  </c><00:05:46.448><c>Don't </c><00:05:46.992><c>know.  </c><00:05:47.536><c>Okay.  </c><00:05:48.080><c>And</c>
+
+00:05:48.670 --> 00:05:48.680 align:start position:0%
+appear twice?  Don't know.  Okay.  And
+ 
+
+00:05:48.680 --> 00:05:51.510 align:start position:0%
+appear twice?  Don't know.  Okay.  And
+ISO <00:05:49.034><c>image.  </c><00:05:49.388><c>I </c><00:05:49.742><c>select </c><00:05:50.096><c>an </c><00:05:50.450><c>image </c><00:05:50.804><c>and </c><00:05:51.158><c>take</c>
+
+00:05:51.510 --> 00:05:51.520 align:start position:0%
+ISO image.  I select an image and take
+ 
+
+00:05:51.520 --> 00:05:54.230 align:start position:0%
+ISO image.  I select an image and take
+the <00:05:51.880><c>Ugundu </c><00:05:52.240><c>image.</c>
+
+00:05:54.230 --> 00:05:54.240 align:start position:0%
+the Ugundu image.
+ 
+
+00:05:54.240 --> 00:05:57.590 align:start position:0%
+the Ugundu image.
+ISO <00:05:54.986><c>image.  </c><00:05:55.732><c>Selected </c><00:05:56.478><c>image,</c>
+
+00:05:57.590 --> 00:05:57.600 align:start position:0%
+ISO image.  Selected image,
+ 
+
+00:05:57.600 --> 00:06:00.230 align:start position:0%
+ISO image.  Selected image,
+downloaded
+
+00:06:00.230 --> 00:06:00.240 align:start position:0%
+downloaded
+ 
+
+00:06:00.240 --> 00:06:03.230 align:start position:0%
+downloaded
+from <00:06:00.380><c>the </c><00:06:00.520><c>internet.</c>
+
+00:06:03.230 --> 00:06:03.240 align:start position:0%
+from the internet.
+ 
+
+00:06:03.240 --> 00:06:08.070 align:start position:0%
+from the internet.
+Type <00:06:04.008><c>Linux </c><00:06:04.776><c>version </c><00:06:05.544><c>Ubuntu, </c><00:06:06.312><c>okay?  </c><00:06:07.080><c>Type</c>
+
+00:06:08.070 --> 00:06:08.080 align:start position:0%
+Type Linux version Ubuntu, okay?  Type
+ 
+
+00:06:08.080 --> 00:06:15.110 align:start position:0%
+Type Linux version Ubuntu, okay?  Type
+Linux <00:06:09.139><c>version </c><00:06:10.198><c>Ubuntu.</c>
+
+00:06:15.110 --> 00:06:15.120 align:start position:0%
+ 
+ 
+
+00:06:15.120 --> 00:06:17.710 align:start position:0%
+ 
+Unattended <00:06:15.690><c>installation, </c><00:06:16.260><c>skip.  </c><00:06:16.830><c>Okay, </c><00:06:17.400><c>I</c>
+
+00:06:17.710 --> 00:06:17.720 align:start position:0%
+Unattended installation, skip.  Okay, I
+ 
+
+00:06:17.720 --> 00:06:19.469 align:start position:0%
+Unattended installation, skip.  Okay, I
+don't <00:06:17.970><c>want </c><00:06:18.220><c>unattended </c><00:06:18.470><c>installation, </c><00:06:18.720><c>I</c>
+
+00:06:19.469 --> 00:06:19.479 align:start position:0%
+don't want unattended installation, I
+ 
+
+00:06:19.479 --> 00:06:23.070 align:start position:0%
+don't want unattended installation, I
+want <00:06:19.942><c>to </c><00:06:20.405><c>install </c><00:06:20.868><c>it </c><00:06:21.331><c>myself.  </c><00:06:21.794><c>Hardware, </c><00:06:22.257><c>of </c><00:06:22.720><c>course,</c>
+
+00:06:23.070 --> 00:06:23.080 align:start position:0%
+want to install it myself.  Hardware, of course,
+ 
+
+00:06:23.080 --> 00:06:30.749 align:start position:0%
+want to install it myself.  Hardware, of course,
+if <00:06:23.432><c>I </c><00:06:23.784><c>have </c><00:06:24.136><c>16 </c><00:06:24.488><c>GB, </c><00:06:24.840><c>then </c><00:06:25.192><c>I'm </c><00:06:25.544><c>going </c><00:06:25.896><c>to </c><00:06:26.248><c>give </c><00:06:26.600><c>it </c><00:06:26.952><c>4192,</c>
+
+00:06:30.749 --> 00:06:30.759 align:start position:0%
+ 
+ 
+
+00:06:30.759 --> 00:06:34.430 align:start position:0%
+ 
+okay?  <00:06:31.160><c>Hardware,</c>
+
+00:06:34.430 --> 00:06:34.440 align:start position:0%
+ 
+ 
+
+00:06:34.440 --> 00:06:40.029 align:start position:0%
+ 
+if <00:06:34.880><c>I </c><00:06:35.320><c>have </c><00:06:35.760><c>16 </c><00:06:36.200><c>GB, </c><00:06:36.640><c>I'm </c><00:06:37.080><c>going </c><00:06:37.520><c>to </c><00:06:37.960><c>give </c><00:06:38.400><c>it </c><00:06:38.840><c>4 </c><00:06:39.280><c>GB, </c><00:06:39.720><c>okay?</c>
+
+00:06:40.029 --> 00:06:40.039 align:start position:0%
+if I have 16 GB, I'm going to give it 4 GB, okay?
+ 
+
+00:06:40.039 --> 00:06:41.710 align:start position:0%
+if I have 16 GB, I'm going to give it 4 GB, okay?
+one/4
+
+00:06:41.710 --> 00:06:41.720 align:start position:0%
+one/4
+ 
+
+00:06:41.720 --> 00:06:53.469 align:start position:0%
+one/4
+CPUs.  <00:06:41.919><c>If </c><00:06:42.118><c>I </c><00:06:42.317><c>have </c><00:06:42.516><c>20 </c><00:06:42.715><c>I'm </c><00:06:42.914><c>going </c><00:06:43.113><c>to </c><00:06:43.312><c>give </c><00:06:43.511><c>him </c><00:06:43.710><c>four.   </c><00:06:43.909><c>I</c>
+
+00:06:53.469 --> 00:06:53.479 align:start position:0%
+ 
+ 
+
+00:06:53.479 --> 00:06:57.830 align:start position:0%
+ 
+mean, <00:06:54.271><c>I </c><00:06:55.063><c>give </c><00:06:55.855><c>it, </c><00:06:56.647><c>okay, </c><00:06:57.439><c>a</c>
+
+00:06:57.830 --> 00:06:57.840 align:start position:0%
+mean, I give it, okay, a
+ 
+
+00:06:57.840 --> 00:07:04.990 align:start position:0%
+mean, I give it, okay, a
+hard <00:06:58.079><c>drive </c><00:06:58.318><c>part, </c><00:06:58.557><c>so </c><00:06:58.796><c>I'm </c><00:06:59.035><c>going </c><00:06:59.274><c>to </c><00:06:59.513><c>give </c><00:06:59.752><c>it </c><00:06:59.991><c>125 </c><00:07:00.230><c>GB.   </c><00:07:00.469><c>Just</c>
+
+00:07:04.990 --> 00:07:05.000 align:start position:0%
+ 
+ 
+
+00:07:05.000 --> 00:07:07.990 align:start position:0%
+ 
+because <00:07:05.320><c>I </c><00:07:05.640><c>give </c><00:07:05.960><c>it </c><00:07:06.280><c>125 </c><00:07:06.600><c>GB </c><00:07:06.920><c>doesn't </c><00:07:07.240><c>mean </c><00:07:07.560><c>that</c>
+
+00:07:07.990 --> 00:07:08.000 align:start position:0%
+because I give it 125 GB doesn't mean that
+ 
+
+00:07:08.000 --> 00:07:09.869 align:start position:0%
+because I give it 125 GB doesn't mean that
+at <00:07:08.199><c>the </c><00:07:08.398><c>moment </c><00:07:08.597><c>I </c><00:07:08.796><c>create </c><00:07:08.995><c>it </c><00:07:09.194><c>it </c><00:07:09.393><c>will </c><00:07:09.592><c>take</c>
+
+00:07:09.869 --> 00:07:09.879 align:start position:0%
+at the moment I create it it will take
+ 
+
+00:07:09.879 --> 00:07:11.990 align:start position:0%
+at the moment I create it it will take
+a <00:07:10.114><c>125 </c><00:07:10.349><c>GB </c><00:07:10.584><c>chunk </c><00:07:10.819><c>of </c><00:07:11.054><c>my </c><00:07:11.289><c>physical </c><00:07:11.524><c>hard </c><00:07:11.759><c>drive</c>
+
+00:07:11.990 --> 00:07:12.000 align:start position:0%
+a 125 GB chunk of my physical hard drive
+ 
+
+00:07:12.000 --> 00:07:14.869 align:start position:0%
+a 125 GB chunk of my physical hard drive
+unless <00:07:12.439><c>I </c><00:07:12.878><c>give </c><00:07:13.317><c>it </c><00:07:13.756><c>the </c><00:07:14.195><c>option </c><00:07:14.634><c>to</c>
+
+00:07:14.869 --> 00:07:14.879 align:start position:0%
+unless I give it the option to
+ 
+
+00:07:14.879 --> 00:07:16.589 align:start position:0%
+unless I give it the option to
+reserve <00:07:15.113><c>it </c><00:07:15.347><c>completely, </c><00:07:15.581><c>which </c><00:07:15.815><c>I'm </c><00:07:16.049><c>not </c><00:07:16.283><c>going </c><00:07:16.517><c>to</c>
+
+00:07:16.589 --> 00:07:16.599 align:start position:0%
+reserve it completely, which I'm not going to
+ 
+
+00:07:16.599 --> 00:07:20.430 align:start position:0%
+reserve it completely, which I'm not going to
+give <00:07:16.983><c>it, </c><00:07:17.367><c>of </c><00:07:17.751><c>course.  </c><00:07:18.135><c>So </c><00:07:18.519><c>I</c>
+
+00:07:20.430 --> 00:07:20.440 align:start position:0%
+give it, of course.  So I
+ 
+
+00:07:20.440 --> 00:07:23.790 align:start position:0%
+give it, of course.  So I
+click <00:07:20.739><c>on </c><00:07:21.038><c>finish.</c>
+
+00:07:23.790 --> 00:07:23.800 align:start position:0%
+click on finish.
+ 
+
+00:07:23.800 --> 00:07:26.110 align:start position:0%
+click on finish.
+I <00:07:23.986><c>click </c><00:07:24.172><c>on </c><00:07:24.358><c>finish</c>
+
+00:07:26.110 --> 00:07:26.120 align:start position:0%
+I click on finish
+ 
+
+00:07:26.120 --> 00:07:28.029 align:start position:0%
+I click on finish
+and <00:07:26.300><c>then </c><00:07:26.480><c>I'll </c><00:07:26.660><c>click </c><00:07:26.840><c>on </c><00:07:27.020><c>start.   </c><00:07:27.200><c>The </c><00:07:27.380><c>thing </c><00:07:27.560><c>is,</c>
+
+00:07:28.029 --> 00:07:28.039 align:start position:0%
+and then I'll click on start.   The thing is,
+ 
+
+00:07:28.039 --> 00:07:30.749 align:start position:0%
+and then I'll click on start.   The thing is,
+I <00:07:29.179><c>think </c><00:07:30.319><c>at</c>
+
+00:07:30.749 --> 00:07:30.759 align:start position:0%
+I think at
+ 
+
+00:07:30.759 --> 00:07:32.390 align:start position:0%
+I think at
+this <00:07:31.063><c>particular </c><00:07:31.367><c>moment </c><00:07:31.671><c>I'll </c><00:07:31.975><c>have </c><00:07:32.279><c>to</c>
+
+00:07:32.390 --> 00:07:32.400 align:start position:0%
+this particular moment I'll have to
+ 
+
+00:07:32.400 --> 00:07:34.629 align:start position:0%
+this particular moment I'll have to
+restart <00:07:32.674><c>the </c><00:07:32.948><c>computer </c><00:07:33.222><c>for </c><00:07:33.496><c>a </c><00:07:33.770><c>moment </c><00:07:34.044><c>because </c><00:07:34.318><c>it</c>
+
+00:07:34.629 --> 00:07:34.639 align:start position:0%
+restart the computer for a moment because it
+ 
+
+00:07:34.639 --> 00:07:37.070 align:start position:0%
+restart the computer for a moment because it
+seems <00:07:35.005><c>like </c><00:07:35.371><c>I </c><00:07:35.737><c>have </c><00:07:36.103><c>something </c><00:07:36.469><c>disabled </c><00:07:36.835><c>on</c>
+
+00:07:37.070 --> 00:07:37.080 align:start position:0%
+seems like I have something disabled on
+ 
+
+00:07:37.080 --> 00:07:39.790 align:start position:0%
+seems like I have something disabled on
+the <00:07:37.405><c>motherboard.  </c><00:07:37.730><c>Okay, </c><00:07:38.055><c>just </c><00:07:38.380><c>a </c><00:07:38.705><c>moment, </c><00:07:39.030><c>I'm </c><00:07:39.355><c>going </c><00:07:39.680><c>to</c>
+
+00:07:39.790 --> 00:07:39.800 align:start position:0%
+the motherboard.  Okay, just a moment, I'm going to
+ 
+
+00:07:39.800 --> 00:07:42.950 align:start position:0%
+the motherboard.  Okay, just a moment, I'm going to
+hit <00:07:40.080><c>start</c>
+
+00:07:42.950 --> 00:07:42.960 align:start position:0%
+hit start
+ 
+
+00:07:42.960 --> 00:07:46.029 align:start position:0%
+hit start
+and <00:07:43.348><c>boom, </c><00:07:43.736><c>sure </c><00:07:44.124><c>enough.  </c><00:07:44.512><c>Okay, </c><00:07:44.900><c>I </c><00:07:45.288><c>have </c><00:07:45.676><c>an</c>
+
+00:07:46.029 --> 00:07:46.039 align:start position:0%
+and boom, sure enough.  Okay, I have an
+ 
+
+00:07:46.039 --> 00:07:48.950 align:start position:0%
+and boom, sure enough.  Okay, I have an
+error <00:07:46.319><c>on </c><00:07:46.599><c>the </c><00:07:46.879><c>motherboard.</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+error on the motherboard.
+ 
+
+00:07:48.960 --> 00:07:53.430 align:start position:0%
+error on the motherboard.
+So, <00:07:50.040><c>KVM </c><00:07:51.120><c>extension.</c>
+
+00:07:53.430 --> 00:07:53.440 align:start position:0%
+So, KVM extension.
+ 
+
+00:07:53.440 --> 00:07:56.629 align:start position:0%
+So, KVM extension.
+Just <00:07:53.617><c>a </c><00:07:53.794><c>second, </c><00:07:53.971><c>give </c><00:07:54.148><c>me </c><00:07:54.325><c>a </c><00:07:54.502><c>second </c><00:07:54.679><c>to</c>
+
+00:07:56.629 --> 00:07:56.639 align:start position:0%
+Just a second, give me a second to
+ 
+
+00:07:56.639 --> 00:07:59.749 align:start position:0%
+Just a second, give me a second to
+make <00:07:57.039><c>sure.</c>
+
+00:07:59.749 --> 00:07:59.759 align:start position:0%
+make sure.
+ 
+
+00:07:59.759 --> 00:08:03.149 align:start position:0%
+make sure.
+Let's <00:08:00.120><c>see.</c>
+
+00:08:03.149 --> 00:08:03.159 align:start position:0%
+ 
+ 
+
+00:08:03.159 --> 00:08:06.270 align:start position:0%
+ 
+No, <00:08:03.502><c>GPT </c><00:08:03.845><c>chat, </c><00:08:04.188><c>this </c><00:08:04.531><c>is </c><00:08:04.874><c>GPT </c><00:08:05.217><c>chat, </c><00:08:05.560><c>eh,</c>
+
+00:08:06.270 --> 00:08:06.280 align:start position:0%
+No, GPT chat, this is GPT chat, eh,
+ 
+
+00:08:06.280 --> 00:08:08.710 align:start position:0%
+No, GPT chat, this is GPT chat, eh,
+Virtual <00:08:06.759><c>Boxtu</c>
+
+00:08:08.710 --> 00:08:08.720 align:start position:0%
+Virtual Boxtu
+ 
+
+00:08:08.720 --> 00:08:12.909 align:start position:0%
+Virtual Boxtu
+on
+
+00:08:12.909 --> 00:08:12.919 align:start position:0%
+ 
+ 
+
+00:08:12.919 --> 00:08:15.749 align:start position:0%
+ 
+error.
+
+00:08:15.749 --> 00:08:15.759 align:start position:0%
+error.
+ 
+
+00:08:15.759 --> 00:08:21.309 align:start position:0%
+error.
+Let's <00:08:15.919><c>see </c><00:08:16.079><c>for</c>
+
+00:08:21.309 --> 00:08:21.319 align:start position:0%
+ 
+ 
+
+00:08:21.319 --> 00:08:23.469 align:start position:0%
+ 
+a <00:08:21.652><c>moment </c><00:08:21.985><c>because, </c><00:08:22.318><c>well, </c><00:08:22.651><c>some </c><00:08:22.984><c>of </c><00:08:23.317><c>you</c>
+
+00:08:23.469 --> 00:08:23.479 align:start position:0%
+a moment because, well, some of you
+ 
+
+00:08:23.479 --> 00:08:45.430 align:start position:0%
+a moment because, well, some of you
+will <00:08:23.705><c>get </c><00:08:23.931><c>similar </c><00:08:24.157><c>errors.</c>
+
+00:08:45.430 --> 00:08:45.440 align:start position:0%
+ 
+ 
+
+00:08:45.440 --> 00:08:48.470 align:start position:0%
+ 
+And <00:08:45.593><c>let's </c><00:08:45.746><c>see </c><00:08:45.899><c>what </c><00:08:46.052><c>I </c><00:08:46.205><c>can </c><00:08:46.358><c>do</c>
+
+00:08:48.470 --> 00:08:48.480 align:start position:0%
+And let's see what I can do
+ 
+
+00:08:48.480 --> 00:08:50.509 align:start position:0%
+And let's see what I can do
+because <00:08:48.704><c>it </c><00:08:48.928><c>tells </c><00:08:49.152><c>me </c><00:08:49.376><c>that </c><00:08:49.600><c>it </c><00:08:49.824><c>cannot </c><00:08:50.048><c>operate </c><00:08:50.272><c>in</c>
+
+00:08:50.509 --> 00:08:50.519 align:start position:0%
+because it tells me that it cannot operate in
+ 
+
+00:08:50.519 --> 00:08:53.389 align:start position:0%
+because it tells me that it cannot operate in
+VMX <00:08:50.839><c>root </c><00:08:51.159><c>mode.   </c><00:08:51.479><c>It</c>
+
+00:08:53.389 --> 00:08:53.399 align:start position:0%
+VMX root mode.   It
+ 
+
+00:08:53.399 --> 00:08:55.790 align:start position:0%
+VMX root mode.   It
+tells <00:08:53.959><c>me </c><00:08:54.519><c>to </c><00:08:55.079><c>disable </c><00:08:55.639><c>the</c>
+
+00:08:55.790 --> 00:08:55.800 align:start position:0%
+tells me to disable the
+ 
+
+00:08:55.800 --> 00:08:57.790 align:start position:0%
+tells me to disable the
+KVM <00:08:56.020><c>kernel </c><00:08:56.240><c>extension,</c>
+
+00:08:57.790 --> 00:08:57.800 align:start position:0%
+KVM kernel extension,
+ 
+
+00:08:57.800 --> 00:08:59.710 align:start position:0%
+KVM kernel extension,
+but <00:08:58.152><c>recompiling </c><00:08:58.504><c>the </c><00:08:58.856><c>kernel </c><00:08:59.208><c>has </c><00:08:59.560><c>its</c>
+
+00:08:59.710 --> 00:08:59.720 align:start position:0%
+but recompiling the kernel has its
+ 
+
+00:08:59.720 --> 00:09:02.670 align:start position:0%
+but recompiling the kernel has its
+dangers, <00:09:00.272><c>obviously, </c><00:09:00.824><c>so </c><00:09:01.376><c>I'm </c><00:09:01.928><c>going </c><00:09:02.480><c>to</c>
+
+00:09:02.670 --> 00:09:02.680 align:start position:0%
+dangers, obviously, so I'm going to
+ 
+
+00:09:02.680 --> 00:09:06.670 align:start position:0%
+dangers, obviously, so I'm going to
+see <00:09:03.120><c>if </c><00:09:03.560><c>there's </c><00:09:04.000><c>an </c><00:09:04.440><c>easier </c><00:09:04.880><c>way</c>
+
+00:09:06.670 --> 00:09:06.680 align:start position:0%
+see if there's an easier way
+ 
+
+00:09:06.680 --> 00:09:09.949 align:start position:0%
+see if there's an easier way
+to <00:09:07.288><c>activate </c><00:09:07.896><c>the </c><00:09:08.504><c>virtual </c><00:09:09.112><c>machine </c><00:09:09.720><c>without</c>
+
+00:09:09.949 --> 00:09:09.959 align:start position:0%
+to activate the virtual machine without
+ 
+
+00:09:09.959 --> 00:09:12.430 align:start position:0%
+to activate the virtual machine without
+having <00:09:10.746><c>to </c><00:09:11.533><c>recompile </c><00:09:12.320><c>the</c>
+
+00:09:12.430 --> 00:09:12.440 align:start position:0%
+having to recompile the
+ 
+
+00:09:12.440 --> 00:09:14.990 align:start position:0%
+having to recompile the
+kernel, <00:09:12.833><c>which </c><00:09:13.226><c>as </c><00:09:13.619><c>I </c><00:09:14.012><c>said, </c><00:09:14.405><c>by </c><00:09:14.798><c>making</c>
+
+00:09:14.990 --> 00:09:15.000 align:start position:0%
+kernel, which as I said, by making
+ 
+
+00:09:15.000 --> 00:09:16.949 align:start position:0%
+kernel, which as I said, by making
+this <00:09:16.680><c>work,</c>
+
+00:09:16.949 --> 00:09:16.959 align:start position:0%
+this work,
+ 
+
+00:09:16.959 --> 00:09:19.269 align:start position:0%
+this work,
+other <00:09:17.239><c>things </c><00:09:17.519><c>could </c><00:09:17.799><c>stop </c><00:09:18.079><c>working, </c><00:09:18.359><c>which</c>
+
+00:09:19.269 --> 00:09:19.279 align:start position:0%
+other things could stop working, which
+ 
+
+00:09:19.279 --> 00:09:23.670 align:start position:0%
+other things could stop working, which
+obviously <00:09:19.599><c>we </c><00:09:19.919><c>don't </c><00:09:20.239><c>want.</c>
+
+00:09:23.670 --> 00:09:23.680 align:start position:0%
+ 
+ 
+
+00:09:23.680 --> 00:09:40.430 align:start position:0%
+ 
+Okay, <00:09:23.826><c>just </c><00:09:23.972><c>a </c><00:09:24.118><c>second.</c>
+
+00:09:40.430 --> 00:09:40.440 align:start position:0%
+ 
+ 
+
+00:09:40.440 --> 00:09:44.069 align:start position:0%
+ 
+Okay, <00:09:40.699><c>another </c><00:09:40.958><c>hypervisor.</c>
+
+00:09:44.069 --> 00:09:44.079 align:start position:0%
+ 
+ 
+
+00:09:44.079 --> 00:09:47.829 align:start position:0%
+ 
+Yes, <00:09:44.239><c>but </c><00:09:44.399><c>there </c><00:09:44.559><c>is </c><00:09:44.719><c>no </c><00:09:44.879><c>other </c><00:09:45.039><c>hypervisor.</c>
+
+00:09:47.829 --> 00:09:47.839 align:start position:0%
+Yes, but there is no other hypervisor.
+ 
+
+00:09:47.839 --> 00:09:52.150 align:start position:0%
+Yes, but there is no other hypervisor.
+No,
+
+00:09:52.150 --> 00:09:52.160 align:start position:0%
+ 
+ 
+
+00:09:52.160 --> 00:09:55.870 align:start position:0%
+ 
+KVM <00:09:52.626><c>is </c><00:09:53.092><c>loaded.  </c><00:09:53.558><c>Okay,</c>
+
+00:09:55.870 --> 00:09:55.880 align:start position:0%
+KVM is loaded.  Okay,
+ 
+
+00:09:55.880 --> 00:10:00.230 align:start position:0%
+KVM is loaded.  Okay,
+come on.
+
+00:10:00.230 --> 00:10:00.240 align:start position:0%
+ 
+ 
+
+00:10:00.240 --> 00:10:08.790 align:start position:0%
+ 
+Okay.
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+ 
+ 
+
+00:10:08.800 --> 00:10:11.790 align:start position:0%
+ 
+Intel.
+
+00:10:11.790 --> 00:10:11.800 align:start position:0%
+Intel.
+ 
+
+00:10:11.800 --> 00:10:16.710 align:start position:0%
+Intel.
+Okay.
+
+00:10:16.710 --> 00:10:16.720 align:start position:0%
+ 
+ 
+
+00:10:16.720 --> 00:10:25.790 align:start position:0%
+ 
+Okay.
+
+00:10:25.790 --> 00:10:25.800 align:start position:0%
+ 
+ 
+
+00:10:25.800 --> 00:10:29.069 align:start position:0%
+ 
+Okay.
+
+00:10:29.069 --> 00:10:29.079 align:start position:0%
+ 
+ 
+
+00:10:29.079 --> 00:10:36.430 align:start position:0%
+ 
+And <00:10:29.399><c>wait </c><00:10:29.719><c>a </c><00:10:30.039><c>moment.  </c><00:10:30.359><c>And </c><00:10:30.679><c>wait </c><00:10:30.999><c>a </c><00:10:31.319><c>moment.  </c><00:10:31.639><c>Let's </c><00:10:31.959><c>see.</c>
+
+00:10:36.430 --> 00:10:36.440 align:start position:0%
+ 
+ 
+
+00:10:36.440 --> 00:10:38.230 align:start position:0%
+ 
+Okay, <00:10:36.680><c>just </c><00:10:36.920><c>a </c><00:10:37.160><c>moment </c><00:10:37.400><c>because </c><00:10:37.640><c>I'm </c><00:10:37.880><c>going </c><00:10:38.120><c>to</c>
+
+00:10:38.230 --> 00:10:38.240 align:start position:0%
+Okay, just a moment because I'm going to
+ 
+
+00:10:38.240 --> 00:10:39.910 align:start position:0%
+Okay, just a moment because I'm going to
+reboot.
+
+00:10:39.910 --> 00:10:39.920 align:start position:0%
+reboot.
+ 
+
+00:10:39.920 --> 00:10:42.110 align:start position:0%
+reboot.
+Don't <00:10:40.410><c>leave </c><00:10:40.900><c>the </c><00:10:41.390><c>room </c><00:10:41.880><c>because</c>
+
+00:10:42.110 --> 00:10:42.120 align:start position:0%
+Don't leave the room because
+ 
+
+00:10:42.120 --> 00:10:45.069 align:start position:0%
+Don't leave the room because
+I'll <00:10:42.459><c>be </c><00:10:42.798><c>back </c><00:10:43.137><c>in </c><00:10:43.476><c>now, </c><00:10:43.815><c>but </c><00:10:44.154><c>before </c><00:10:44.493><c>that, </c><00:10:44.832><c>I</c>
+
+00:10:45.069 --> 00:10:45.079 align:start position:0%
+I'll be back in now, but before that, I
+ 
+
+00:10:45.079 --> 00:10:46.590 align:start position:0%
+I'll be back in now, but before that, I
+have <00:10:45.379><c>to </c><00:10:45.679><c>restart </c><00:10:45.979><c>to </c><00:10:46.279><c>apply</c>
+
+00:10:46.590 --> 00:10:46.600 align:start position:0%
+have to restart to apply
+ 
+
+00:10:46.600 --> 00:10:49.269 align:start position:0%
+have to restart to apply
+these <00:10:47.140><c>changes, </c><00:10:47.680><c>okay?  </c><00:10:48.220><c>So </c><00:10:48.760><c>stay</c>
+
+00:10:49.269 --> 00:10:49.279 align:start position:0%
+these changes, okay?  So stay
+ 
+
+00:10:49.279 --> 00:10:52.639 align:start position:0%
+these changes, okay?  So stay
+here.  <00:10:50.160><c>Okay.</c>
+

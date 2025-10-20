@@ -1,0 +1,39 @@
+No se pudieron obtener subtítulos.
+
+--- --list-subs (client=mweb) ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=utmNSp-m-PA
+[youtube] utmNSp-m-PA: Downloading webpage
+[youtube] utmNSp-m-PA: Downloading mweb client config
+[youtube] utmNSp-m-PA: Downloading mweb player API JSON
+[youtube] utmNSp-m-PA: Downloading player 27422632-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/27422632/player_ias.vflset/en_US/base.js
+WARNING: [youtube] utmNSp-m-PA: nsig extraction failed: Some formats may be missing
+         n = nmexsjLyMH9rNwXXU ; player = https://www.youtube.com/s/player/27422632/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] utmNSp-m-PA: nsig extraction failed: Some formats may be missing
+         n = Ir60q9pMKFuULXaWK ; player = https://www.youtube.com/s/player/27422632/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+ERROR: [youtube] utmNSp-m-PA: The following content is not available on this app.. Watch on the latest version of YouTube.
+
+--- --list-subs (client=tv) ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=utmNSp-m-PA
+[youtube] utmNSp-m-PA: Downloading webpage
+[youtube] utmNSp-m-PA: Downloading tv client config
+[youtube] utmNSp-m-PA: Downloading tv player API JSON
+ERROR: [youtube] utmNSp-m-PA: The following content is not available on this app.. Watch on the latest version of YouTube.
+
+--- --list-subs (client=web) ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=utmNSp-m-PA
+[youtube] utmNSp-m-PA: Downloading webpage
+ERROR: [youtube] utmNSp-m-PA: The following content is not available on this app.. Watch on the latest version of YouTube.
+
+--- --list-subs (client=android) ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=utmNSp-m-PA
+[youtube] utmNSp-m-PA: Downloading webpage
+[youtube] utmNSp-m-PA: Downloading android player API JSON
+WARNING: [youtube] utmNSp-m-PA: android client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=android.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide . To enable these broken formats anyway, pass --extractor-args "youtube:formats=missing_pot"
+[info] Available automatic captions for utmNSp-m-PA:
+Language Name    Formats
+en       English vtt, srt, ttml, srv3, srv2, srv1, json3
+utmNSp-m-PA has no subtitles

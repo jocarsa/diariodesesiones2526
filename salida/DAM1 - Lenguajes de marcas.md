@@ -1,6 +1,6 @@
 # Informe de clases – DAM1 - Lenguajes de marcas
 
-_Generado automáticamente. Vídeos incluidos: 16._
+_Generado automáticamente. Vídeos incluidos: 18._
 
 ## Índice
 
@@ -20,6 +20,8 @@ _Generado automáticamente. Vídeos incluidos: 16._
 14. [2025 10 13 13 53 16](#2025-10-13-13-53-16)
 15. [2025 10 16 14 05 48](#2025-10-16-14-05-48)
 16. [2025 10 16 14 56 22](#2025-10-16-14-56-22)
+17. [2025 10 20 13 01 29](#2025-10-20-13-01-29)
+18. [2025 10 20 13 35 46](#2025-10-20-13-35-46)
 
 ---
 
@@ -31,7 +33,95 @@ _Generado automáticamente. Vídeos incluidos: 16._
 
 **Enlace:** https://www.youtube.com/watch?v=7u86RY0F2pg
 
-_No hay subtítulos disponibles._
+**Resumen Extensivo de la Clase**
+
+**Objetivos:**
+
+* Introducir los conceptos básicos de las lenguajes de marcado (markup languages)
+* Explorar las características y aplicaciones de HTML, XML, Markdown y CSS
+* Presentar ejemplos prácticos de cada lenguaje
+
+**Conceptos Clave:**
+
+* **Lenguajes de Marcado:** Son un tipo de código que se utiliza para agregar estructura y significado a los documentos digitales.
+* **HTML (HyperText Markup Language):** Es el lenguaje más conocido y ampliamente utilizado para crear páginas web. Permite la creación de estructuras y contenidos en las páginas web.
+* **XML (Extensible Markup Language):** Es un lenguaje de marcado que se utiliza para almacenar y intercambiar datos en formatos estándares. Puede ser utilizado para crear documentos complejos con estructura y contenido.
+* **Markdown:** Es un lenguaje de marcado ligero y fácil de leer que se utiliza para crear documentos en formato texto. Permite la creación de estructuras y contenidos sin necesidad de código HTML.
+* **CSS (Cascading Style Sheets):** Es un lenguaje utilizado para agregar estilo y diseño a las páginas web creadas con HTML.
+
+**Explicación Didáctica:**
+
+La clase comenzó con una introducción al concepto de lenguajes de marcado y su importancia en la creación de documentos digitales. El profesor presentó un calendario de clases para que los alumnos supieran qué temas se tratarían a lo largo del curso.
+
+**Paso 1: Introducción a HTML**
+
+El primer tema abordado fue HTML, el lenguaje más conocido y ampliamente utilizado para crear páginas web. El profesor explicó cómo crear un archivo HTML básico con etiquetas como `<html>`, `<head>` y `<body>`. También se presentaron ejemplos de cómo utilizar etiquetas como `<p>` y `<img>` para agregar contenido a la página.
+
+**Paso 2: Introducción a XML**
+
+A continuación, el profesor presentó XML, un lenguaje de marcado que se utiliza para almacenar y intercambiar datos en formatos estándares. Se explicó cómo crear un archivo XML básico con etiquetas como `<xml>` y `<data>`. También se presentaron ejemplos de cómo utilizar atributos y valores para agregar estructura y contenido a los datos.
+
+**Paso 3: Introducción a Markdown**
+
+El tercer tema abordado fue Markdown, un lenguaje de marcado ligero y fácil de leer que se utiliza para crear documentos en formato texto. Se explicó cómo crear un archivo Markdown básico con estructuras como encabezados, párrafos y listas.
+
+**Paso 4: Introducción a CSS**
+
+Finalmente, el profesor presentó CSS, un lenguaje utilizado para agregar estilo y diseño a las páginas web creadas con HTML. Se explicó cómo crear un archivo CSS básico con reglas de estilo como `color` y `background`.
+
+**Buenas Prácticas:**
+
+* Utilizar lenguajes de marcado para agregar estructura y significado a los documentos digitales.
+* Aprender las características y aplicaciones de cada lenguaje.
+* Practicar la creación de archivos básicos en cada lenguaje.
+
+**Ejemplos Prácticos:**
+
+* Código HTML básico:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Título</title>
+</head>
+<body>
+	<p>Este es un párrafo.</p>
+	<img src="imagen.jpg" alt="Imagen">
+</body>
+</html>
+```
+* Código XML básico:
+```xml
+<xml>
+	<data>
+		<nombre>Juan</nombre>
+		<edad>30</edad>
+	</data>
+</xml>
+```
+* Código Markdown básico:
+```markdown
+# Encabezado 1
+## Encabezado 2
+### Encabezado 3
+
+Este es un párrafo.
+
+* Elemento 1
+* Elemento 2
+* Elemento 3
+```
+* Código CSS básico:
+```css
+body {
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+}
+```
+Esperamos que este resumen extensivo haya sido útil para los alumnos. Recuerden practicar la creación de archivos básicos en cada lenguaje y explorar sus características y aplicaciones. ¡Buena suerte!
 
 ---
 
@@ -43,42 +133,7 @@ _No hay subtítulos disponibles._
 
 **Enlace:** https://www.youtube.com/watch?v=ZXucRKzUMq4
 
-**Resumen Extensivo: Introducción a la Programación con Python**
-
-**Objetivos**
-
-* Entender los conceptos básicos de programación y cómo se aplican en Python
-* Aprender a estructurar un programa en Python
-* Conocer las características principales del lenguaje Python
-
-**Conceptos Clave**
-
-* **Variables**: contenedores de información que pueden ser modificados durante la ejecución del programa.
-* **Tipos de datos**: categorías de variables según el tipo de información que almacenan (enteros, flotantes, cadenas de texto, booleanos).
-* **Operadores**: símbolos que se utilizan para realizar operaciones aritméticas y lógicas en las variables.
-* **Estructura de un programa**: secuencia de instrucciones que se ejecutan en orden, incluyendo la declaración de variables, funciones y el método principal.
-
-**Explicación Didáctica**
-
-La sesión comenzó con una discusión sobre la evaluación del curso, enfocándose en la estructura de los módulos profesionales y las unidades de aprendizaje. Se destacó que habrá ejercicios al final de cada unidad y subunidad, con un enfoque práctico en el desarrollo de código.
-
-**Pasos/Comandos**
-
-1. **Instalación de Python**: se recomendó descargar la última versión de Python desde el sitio oficial (`https://python.org`) y seguir las instrucciones para instalarlo en el sistema operativo.
-2. **Uso del Editor de Código IDLE**: se explicó cómo abrir el editor de código IDLE, crear un nuevo archivo y escribir el primer programa en Python (`print("Hola, mundo!")`).
-3. **Entradas y Salidas**: se introdujo la función `input()` para leer entradas del usuario y la función `print()` para mostrar salidas.
-4. **Documentación de Código**: se mencionó la importancia de documentar el código con comentarios (`#`) y docstrings (`""" """`).
-5. **Estructura de un Programa**: se presentó una estructura recomendada para los programas en Python, incluyendo la declaración de variables, funciones y el método principal.
-
-**Buenas Prácticas**
-
-* **Crear un directorio de proyectos**: se sugirió crear un directorio para almacenar todos los proyectos y ejercicios realizados durante el curso.
-* **Usar nombres significativos para las variables**: se recomendó utilizar nombres descriptivos para las variables para mejorar la legibilidad del código.
-* **Documentar el código**: se enfatizó la importancia de documentar el código con comentarios y docstrings para facilitar su comprensión.
-
-**Pasos Posteriores**
-
-La sesión continuará con la explicación de conceptos más avanzados, como los operadores lógicos, las estructuras de control (`if`, `for`, `while`) y la introducción a las funciones en Python. Se anticipa que se realizarán ejercicios prácticos para aplicar estos conceptos.
+_No hay subtítulos disponibles._
 
 ---
 
@@ -150,62 +205,7 @@ _No hay subtítulos disponibles._
 
 **Enlace:** https://www.youtube.com/watch?v=tsD_UZ-wILI
 
-**Resumen Extenso**
-
-**Objetivos:**
-
-* Comprender el concepto de clases y objetos en programación.
-* Aprender a crear y utilizar clases para encapsular datos y comportamientos.
-* Desarrollar habilidades para trabajar con herencia de clases y métodos.
-
-**Conceptos Clave:**
-
-* **Clases:** Un conjunto de atributos (datos) y métodos (funciones) que se utilizan para crear objetos.
-* **Objetos:** Instancias de una clase, que pueden tener valores específicos para sus atributos.
-* **Herencia de clases:** La capacidad de crear nuevas clases a partir de existentes, heredando sus atributos y métodos.
-
-**Explicación Didáctica:**
-
-La programación orientada a objetos (POO) es un enfoque que enfatiza la creación de modelos del mundo real utilizando clases y objetos. En este contexto, las clases son como plantillas para crear objetos con características específicas.
-
-Imaginemos un ejemplo sencillo: una clase `Persona` podría tener atributos como `nombre`, `edad` y `dirección`. Al crear un objeto `Persona`, podemos asignar valores a estos atributos, por ejemplo, `nombre = "Juan"`, `edad = 30` y `direccion = "Calle 123"`.
-
-Ahora, si queremos crear una clase `Empleado` que herede de la clase `Persona`, podemos utilizar la herencia de clases. La clase `Empleado` podría tener atributos adicionales como `sueldo` o `departamento`. Al crear un objeto `Empleado`, podríamos asignar valores a los atributos heredados de la clase `Persona`, así como a los nuevos atributos específicos de la clase `Empleado`.
-
-**Pasos y Comandos:**
-
-* Crear una clase utilizando el comando `class ClaseNombre:` en Python.
-* Definir atributos y métodos dentro de la clase utilizando sintaxis adecuada.
-* Utilizar herencia de clases para crear nuevas clases a partir de existentes.
-
-**Buenas Prácticas:**
-
-* Utilizar nombres descriptivos para las variables y funciones.
-* Documentar el código con comentarios claros.
-* Utilizar herencia de clases cuando sea necesario, pero no abusando de ella.
-
-**Ejemplo de Código:**
-```python
-class Persona:
-    def __init__(self, nombre, edad):
-        self.nombre = nombre
-        self.edad = edad
-
-class Empleado(Persona):
-    def __init__(self, nombre, edad, sueldo):
-        super().__init__(nombre, edad)
-        self.sueldo = sueldo
-
-# Crear un objeto Persona
-persona = Persona("Juan", 30)
-
-# Crear un objeto Empleado heredando de Persona
-empleado = Empleado("Juanito", 25, 5000)
-
-print(persona.nombre)  # Juan
-print(empleado.nombre)  # Juanito
-```
-Recuerda que este es solo un ejemplo básico para ilustrar el concepto. En la práctica real, las clases y objetos pueden ser mucho más complejos y sofisticados.
+_No hay subtítulos disponibles._
 
 ---
 
@@ -277,43 +277,7 @@ _No hay subtítulos disponibles._
 
 **Enlace:** https://www.youtube.com/watch?v=5rEdIwlIiHY
 
-**Resumen Extenso: Operaciones en Sistemas Informáticos**
-
-**Objetivos**
-
-El objetivo de esta clase es profundizar en las operaciones básicas que se pueden realizar en sistemas informáticos, específicamente en el entorno de Ubuntu Server. Los estudiantes deben comprender los conceptos clave de instalación y actualización de software, así como la importancia de la seguridad y la recuperación de datos.
-
-**Conceptos Clave**
-
-* **Instalación de Software**: La instalación de software implica agregar nuevas aplicaciones o herramientas al sistema informático. En Ubuntu Server, esto se realiza mediante el comando `sudo apt install <nombre del paquete>`.
-* **Actualización de Software**: La actualización de software es crucial para mantener el sistema informático seguro y funcional. En Ubuntu Server, esto se realiza mediante el comando `sudo apt update` y luego `sudo apt upgrade`.
-* **Recuperación de Datos**: La recuperación de datos es fundamental en caso de pérdida o daño a los sistemas informáticos. En Ubuntu Server, esto se puede lograr mediante la creación de copias de seguridad (backup) del sistema.
-
-**Explicación Didáctica**
-
-La clase comienza con una revisión de las operaciones básicas realizadas anteriormente, como la instalación de sistemas operativos y la configuración de redes. Luego, se profundiza en la instalación y actualización de software, utilizando el comando `sudo apt install` para instalar nuevas aplicaciones y `sudo apt update` y luego `sudo apt upgrade` para actualizar las existentes.
-
-**Pasos/Comandos**
-
-* **Instalación de Software**: `sudo apt install <nombre del paquete>`
-* **Actualización de Software**: `sudo apt update` y luego `sudo apt upgrade`
-* **Creación de Copia de Seguridad (Backup)**: Se puede utilizar el comando `tar` para crear una copia de seguridad del sistema.
-
-**Buenas Prácticas**
-
-* **Crear copias de seguridad regulares**: Es importante crear copias de seguridad del sistema regularmente para asegurarse de que los datos estén protegidos en caso de pérdida o daño.
-* **Actualizar software con regularidad**: La actualización de software es crucial para mantener el sistema informático seguro y funcional.
-* **Utilizar comandos de instalación y actualización**: Los estudiantes deben familiarizarse con los comandos `sudo apt install` y `sudo apt update` para realizar operaciones básicas en Ubuntu Server.
-
-**Ejemplos**
-
-* **Instalación de Apache**: `sudo apt install apache2`
-* **Actualización de Apache**: `sudo apt update` y luego `sudo apt upgrade`
-* **Creación de copia de seguridad del sistema**: Se puede utilizar el comando `tar` para crear una copia de seguridad del sistema.
-
-**Conclusión**
-
-En resumen, esta clase ha cubierto los conceptos básicos de instalación y actualización de software en Ubuntu Server, así como la importancia de la recuperación de datos. Los estudiantes deben comprender estos conceptos clave y familiarizarse con los comandos correspondientes para realizar operaciones básicas en el entorno de Ubuntu Server.
+_No hay subtítulos disponibles._
 
 ---
 
@@ -336,6 +300,30 @@ _No hay subtítulos disponibles._
 **Día (ES):** jueves
 
 **Enlace:** https://www.youtube.com/watch?v=Fj6s4pW8jbQ
+
+_No hay subtítulos disponibles._
+
+---
+
+## 2025 10 20 13 01 29
+
+**Fecha/Hora:** 2025-10-20 13:01:29
+
+**Día (ES):** lunes
+
+**Enlace:** https://www.youtube.com/watch?v=CaaaRCCkEVI
+
+_No hay subtítulos disponibles._
+
+---
+
+## 2025 10 20 13 35 46
+
+**Fecha/Hora:** 2025-10-20 13:35:46
+
+**Día (ES):** lunes
+
+**Enlace:** https://www.youtube.com/watch?v=oNKntIjJYOQ
 
 _No hay subtítulos disponibles._
 

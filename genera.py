@@ -4,12 +4,14 @@
 """
 Generador de resúmenes por lotes (sin input) — Versión separada por asignaturas.
 
-Cambios clave vs. versión original:
+Cambios clave vs. versión original del usuario:
 - Acepta SOLO la playlist indicada por el usuario.
 - En lugar de un único .md por playlist, genera VARIOS .md: uno por subjectKey
   del TIMETABLE (p.ej. 'DAM1 - Programación.md'), agrupando los vídeos que
   caen en sus franjas según la fecha/hora del título.
 - Los vídeos sin fecha o que no encajan en ninguna franja se guardan en 'Otros.md'.
+- ***Subtítulos robustos***: sondeo -J por player_client, petición de claves exactas
+  (p. ej. es.automatic), y rescate con --all-subs si hace falta (evita el falso "No hay subtítulos").
 
 Requisitos:
   pip install -U yt-dlp requests
@@ -184,7 +186,7 @@ def fetch_playlist_items(playlist_code: str) -> Tuple[str, List[Dict[str, str]]]
         items.append({"id": vid, "title": vtitle, "url": vurl})
     return title, items
 
-# ===== Subtítulos =====
+# ===== Subtítulos (helpers comunes) =====
 def _lang_from_filename(path: Path, base_stem: str) -> str:
     name = path.name
     if name.startswith(base_stem + "."):
@@ -216,33 +218,61 @@ def pick_best_spanish_vtt(base_out: Path) -> Optional[Tuple[Path, str]]:
     best_lang = _lang_from_filename(best, base_out.name)
     return best, best_lang
 
-def download_best_subs(url: str, base_out: Path) -> Optional[Tuple[Path, str, str]]:
-    """Intentos: español -> fallback auto -> all-subs. Devuelve (ruta_vtt, lang, client)"""
-    def run_with_langs(langs, client):
-        cmd = yt_cmd_base() + [
-            "--skip-download",
-            "--write-subs", "--write-auto-subs",
-            "--sub-format", "vtt/srv3",
-            "--convert-subs", "vtt",
-            "--sub-langs", ",".join(langs),
-            "--output", str(base_out) + ".%(ext)s",
-            "--extractor-args", f"youtube:player_client={client}",
-            url,
-        ]
-        try:
-            subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            pick = pick_best_spanish_vtt(base_out)
-            if pick:
-                p, lang = pick
-                return p, lang, client
-            for lang in langs:
-                maybe = base_out.with_name(base_out.name + f".{lang}.vtt")
-                if maybe.exists():
-                    return maybe, lang, client
-        except subprocess.CalledProcessError:
-            pass
+def _list_subs(url: str, player_client: str) -> str:
+    """Diagnóstico: salida de --list-subs para un client dado."""
+    cmd = yt_cmd_base() + [
+        "--list-subs",
+        "--extractor-args", f"youtube:player_client={player_client}",
+        url
+    ]
+    try:
+        p = subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        return p.stdout.decode("utf-8", errors="ignore")
+    except subprocess.CalledProcessError as e:
+        return e.stdout.decode("utf-8", errors="ignore") if e.stdout else str(e)
+
+def _pick_best_vtt_from_any_lang(base_out: Path, prefer: List[str]) -> Optional[Tuple[Path, str]]:
+    """
+    Desde archivos ya descargados <base>.<lang>.vtt elige:
+    1) El mejor español (es-ES, es-419, es, es-*, es.*),
+    2) o el primero que coincida con la preferencia dada,
+    3) o el primero disponible.
+    """
+    vtts = sorted(base_out.parent.glob(base_out.name + ".*.vtt"))
+    if not vtts:
         return None
 
+    def score_es(p: Path) -> Tuple[int, str]:
+        lang = _lang_from_filename(p, base_out.name)
+        if lang in ("es-ES", "es-419", "es"):
+            return (0, lang)
+        if lang.startswith("es-") or lang.startswith("es."):
+            return (1, lang)
+        return (99, lang)
+
+    ranked_es = sorted(((score_es(p), p) for p in vtts), key=lambda x: x[0])
+    if ranked_es and ranked_es[0][0][0] < 99:
+        best = ranked_es[0][1]
+        return best, _lang_from_filename(best, base_out.name)
+
+    langs_to_paths = { _lang_from_filename(p, base_out.name): p for p in vtts }
+    for pref in prefer:
+        for lang, path in langs_to_paths.items():
+            if lang == pref or lang.startswith(pref + "."):
+                return path, lang
+
+    first = vtts[0]
+    return first, _lang_from_filename(first, base_out.name)
+
+def download_best_subs(url: str, base_out: Path) -> Optional[Tuple[Path, str, str]]:
+    """
+    ***Versión robusta***:
+      - Sonda con -J por client: mweb -> tv -> web -> android.
+      - Si hay 'subtitles'/'automatic_captions' españoles, pide EXACTAMENTE esas claves (p.ej. es.automatic).
+      - Si no hay español y FALLBACK_TO_ANY_AUTO=True, coge el primer auto-caption disponible según prioridad.
+      - Si todo falla: rescate --all-subs y elige el mejor VTT presente.
+    Devuelve (ruta_vtt, lang_code, client) o None.
+    """
     def probe_info(client: str) -> dict:
         cmd = yt_cmd_base() + ["-J", "--extractor-args", f"youtube:player_client={client}", url]
         p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -267,6 +297,7 @@ def download_best_subs(url: str, base_out: Path) -> Optional[Tuple[Path, str, st
         auto = info.get("automatic_captions") or {}
         if not auto:
             return None
+        # Respeta prefijos (p.ej., 'es.' o 'es-')
         for pref in FALLBACK_AUTO_PRIORITY:
             for lang in auto.keys():
                 if lang == pref or lang.startswith(pref + ".") or (pref == "es" and (lang.startswith("es-") or lang.startswith("es."))):
@@ -275,7 +306,40 @@ def download_best_subs(url: str, base_out: Path) -> Optional[Tuple[Path, str, st
             return lang
         return None
 
-    def all_subs(client: str):
+    def run_with_langs(langs: List[str], client: str) -> Optional[Tuple[Path, str, str]]:
+        # IMPORTANTE: pedir EXACTAMENTE las claves (no regex en --sub-langs)
+        cmd = yt_cmd_base() + [
+            "--skip-download",
+            "--write-subs", "--write-auto-subs",
+            "--sub-format", "vtt/srv3",
+            "--convert-subs", "vtt",
+            "--sub-langs", ",".join(langs),
+            "--output", str(base_out) + ".%(ext)s",
+            "--extractor-args", f"youtube:player_client={client}",
+            url,
+        ]
+        try:
+            subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            # ¿hay ya .es*.vtt? (incluye es.automatic)
+            pick = pick_best_spanish_vtt(base_out)
+            if pick:
+                pth, lang = pick
+                return (pth, lang, client)
+            # ¿bajó el/los lang pedidos?
+            for lang in langs:
+                maybe = base_out.with_name(base_out.name + f".{lang}.vtt")
+                if maybe.exists():
+                    return (maybe, lang, client)
+            # Como último paso: elegir el mejor de cualquier idioma presente
+            any_pick = _pick_best_vtt_from_any_lang(base_out, FALLBACK_AUTO_PRIORITY)
+            if any_pick:
+                pth, lang = any_pick
+                return (pth, lang, client)
+        except subprocess.CalledProcessError:
+            pass
+        return None
+
+    def all_subs_rescue(client: str) -> Optional[Tuple[Path, str, str]]:
         cmd = yt_cmd_base() + [
             "--skip-download",
             "--all-subs",
@@ -287,42 +351,55 @@ def download_best_subs(url: str, base_out: Path) -> Optional[Tuple[Path, str, st
         ]
         try:
             subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            pick = pick_best_spanish_vtt(base_out)
-            if pick:
-                p, l = pick
-                return p, l, client
-            vtts = sorted(base_out.parent.glob(base_out.name + ".*.vtt"))
-            if vtts:
-                for pref in FALLBACK_AUTO_PRIORITY:
-                    for pth in vtts:
-                        lang = _lang_from_filename(pth, base_out.name)
-                        if lang == pref or lang.startswith(pref + "."):
-                            return pth, lang, client
-                return vtts[0], _lang_from_filename(vtts[0], base_out.name), client
+            any_pick = _pick_best_vtt_from_any_lang(base_out, FALLBACK_AUTO_PRIORITY)
+            if any_pick:
+                pth, lang = any_pick
+                return (pth, lang, client)
         except subprocess.CalledProcessError:
             return None
+        return None
 
+    # === Flujo principal por clientes ===
     for client in PLAYER_CLIENTS:
         info = probe_info(client)
+
+        # 1) Idiomas españoles exactos (subtitles y/o automatic_captions)
         es_langs = pick_spanish_keys(info)
         if es_langs:
             got = run_with_langs(es_langs, client)
             if got:
                 return got
+
+        # 2) Fallback a cualquier auto-caption disponible, según prioridad
         if FALLBACK_TO_ANY_AUTO:
             fb = pick_fallback_auto(info)
             if fb:
                 got = run_with_langs([fb], client)
                 if got:
                     return got
-        got = all_subs(client)
+
+        # 3) Rescate all-subs
+        got = all_subs_rescue(client)
         if got:
             return got
 
+    # Segundo rescate global (por si algo escapó)
     for client in PLAYER_CLIENTS:
-        got = all_subs(client)
+        got = all_subs_rescue(client)
         if got:
             return got
+
+    # Logging de diagnóstico mínimo
+    try:
+        logs = []
+        for client in PLAYER_CLIENTS:
+            logs.append(f"\n--- --list-subs (client={client}) ---\n{_list_subs(url, client)}")
+        (base_out.parent / (base_out.name + ".log")).write_text(
+            "No se pudieron obtener subtítulos.\n" + "".join(logs), encoding="utf-8"
+        )
+    except Exception:
+        pass
+
     return None
 
 # ===== Ollama =====
@@ -498,7 +575,7 @@ def process_one_playlist(playlist_code: str) -> Dict[str, Path]:
         if sum_path.exists():
             summary_md = sum_path.read_text(encoding="utf-8")
         else:
-            # 2) Subtítulos
+            # 2) Subtítulos robustos
             pick = download_best_subs(url, base_out)
             if not pick:
                 summary_md = "_No hay subtítulos disponibles._"
